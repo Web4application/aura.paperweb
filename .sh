@@ -1,3 +1,31 @@
+```bash
+
+src/main/java/com/company/myapp/
+├── MyAppApplication.java          // Main class
+├── config/                        // Configuration classes
+│   ├── SecurityConfig.java
+│   └── DatabaseConfig.java
+├── controller/                    // REST controllers
+│   ├── UserController.java
+│   └── ProductController.java
+├── service/                       // Business logic
+│   ├── UserService.java
+│   └── ProductService.java
+├── repository/                    // Data access layer
+│   ├── UserRepository.java
+│   └── ProductRepository.java
+├── model/                         // Entity classes
+│   ├── User.java
+│   └── Product.java
+├── dto/                          // Data transfer objects
+│   ├── UserDto.java
+│   └── ProductDto.java
+└── exception/                    // Custom exceptions
+    └── GlobalExceptionHandler.java
+    
+---
+
+
 ngrok config add-authtoken 33OQXTTTmyIjVh21zBDVmxGY28O_3PhK4sybzSw72Nm2a8Dfy
 ngrok http --url=unreceivable-charlsie-superingeniously.ngrok-free.dev 80
 # Rollback to last backup
