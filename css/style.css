@@ -1,0 +1,8 @@
+.aura-layout { display: flex; height: 100vh; }
+.aura-sidebar { width: 220px; background: #111; color: #fff; padding: 20px; }
+.aura-main { flex: 1; display: flex; flex-direction: column; }
+.aura-topbar { background: #222; padding: 10px 20px; color: #eee; }
+.aura-panel { flex: 1; padding: 20px; background: #f6f6f6; }
+.aura-terminal { background: #000; color: #0f0; padding: 10px; height: 100%; overflow-y: auto; }
+.aura-input { display: flex; margin-top: 10px; }
+.aura-input textarea { flex: 1; height: 50px; }
