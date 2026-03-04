@@ -1,5 +1,5 @@
-[mnt/data/Aura.paperweb](fast.ai)
-<!-- Simulation Problems with --!>
+# Simulation Problems
+with
 pd.ExcelWriter("/mnt/data/Aura.xlsx", engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
     # Sheet 14: Pure Mathematics
     pure_math = pd.DataFrame({
@@ -68,6 +68,9 @@ pd.ExcelWriter("/mnt/data/Aura.xlsx", engine="openpyxl", mode="a", if_sheet_exis
             "Temperature profile along rod",
             "Nonzero probability of tunneling"
         ]
-    })
-   
-   simulation_problems.to_excel(writer,sheet_name="Simulation_Problems",index=False)^/mnt/data/Aura.xlsx
+    })  
+simulation_problems.to_excel(writer,sheet_name="Simulation_Problems",index=False)
+
+[paperweb_aura.xlsl](https://fastlite.answer.ai/)
+<-- Simulation Problems -->
+[Aurapaper.xlsl](https://fastht.ml)
