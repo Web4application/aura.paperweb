@@ -1,0 +1,27 @@
+# Mint Starter Kit
+
+## Docs
+
+- [Claude Code setup](https://acme-83ff5188.mintlify.app/ai-tools/claude-code.md): Configure Claude Code for your documentation workflow
+- [Cursor setup](https://acme-83ff5188.mintlify.app/ai-tools/cursor.md): Configure Cursor for your documentation workflow
+- [Windsurf setup](https://acme-83ff5188.mintlify.app/ai-tools/windsurf.md): Configure Windsurf for your documentation workflow
+- [Create Plant](https://acme-83ff5188.mintlify.app/api-reference/endpoint/create.md): Creates a new plant in the store
+- [Delete Plant](https://acme-83ff5188.mintlify.app/api-reference/endpoint/delete.md): Deletes a single plant based on the ID supplied
+- [Get Plants](https://acme-83ff5188.mintlify.app/api-reference/endpoint/get.md): Returns all plants from the system that the user has access to
+- [New Plant](https://acme-83ff5188.mintlify.app/api-reference/endpoint/webhook.md): Information about a new plant added to the store
+- [Introduction](https://acme-83ff5188.mintlify.app/api-reference/introduction.md): Example section for showcasing API endpoints
+- [Development](https://acme-83ff5188.mintlify.app/development.md): Preview changes locally to update your docs
+- [Code blocks](https://acme-83ff5188.mintlify.app/essentials/code.md): Display inline code and code blocks
+- [Images and embeds](https://acme-83ff5188.mintlify.app/essentials/images.md): Add image, video, and other HTML elements
+- [Markdown syntax](https://acme-83ff5188.mintlify.app/essentials/markdown.md): Text, title, and styling in standard markdown
+- [Navigation](https://acme-83ff5188.mintlify.app/essentials/navigation.md): The navigation field in docs.json defines the pages that go in the navigation menu
+- [Reusable snippets](https://acme-83ff5188.mintlify.app/essentials/reusable-snippets.md): Reusable, custom snippets to keep content in sync
+- [Global Settings](https://acme-83ff5188.mintlify.app/essentials/settings.md): Mintlify gives you complete control over the look and feel of your documentation using the docs.json file
+- [Introduction](https://acme-83ff5188.mintlify.app/index.md): Welcome to the new home for your documentation
+- [Quickstart](https://acme-83ff5188.mintlify.app/quickstart.md): Start building awesome documentation in minutes
+
+
+## Optional
+
+- [Documentation](https://mintlify.com/docs)
+- [Blog](https://mintlify.com/blog)

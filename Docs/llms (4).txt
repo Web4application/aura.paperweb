@@ -1,0 +1,26 @@
+# glama.ai llms.txt
+
+AI platform for hosting MCP servers and accessing AI models.
+
+## Products
+
+- [Chat](https://glama.ai/chat): Offer an all-in-one AI workspace for users to upload, analyze, and visualize data using various AI models.
+- [MCP Servers](https://glama.ai/mcp/servers): A registry for Model Context Protocol (MCP) servers, providing search and access to various AI-enabled tools.
+- [MCP Clients](https://glama.ai/mcp/clients): A registry for Model Context Protocol (MCP) clients, providing search and access to various AI-enabled tools.
+- [MCP Tools](https://glama.ai/mcp/tools): A registry for Model Context Protocol (MCP) tools, providing search and access to various AI-enabled tools.
+- [Glama AI Pricing Information](https://glama.ai/pricing): This webpage outlines the pricing and features of the Glama AI platform for various user needs.
+- [Glama System Status](https://glama.ai/status): Provides system status updates for Glama services.
+
+## User/Support
+
+- [Sign Up for Glama](https://glama.ai/sign-up): Encourages users to sign up for an AI workspace with a focus on data security and control.
+- [Support](https://glama.ai/support): Providing customer support information and resources for Glama AI users.
+- [Terms of Service](https://glama.ai/policies/terms-of-service): Outline the terms and conditions for using Glama AI-driven chatbot service.
+- [Privacy Policy](https://glama.ai/policies/privacy-policy): Clarifies how user information is collected, used, and protected by Glama.
+- [Vulnerability Disclosure Policy](https://glama.ai/policies/vulnerability-disclosure): Outline the process for reporting and handling vulnerabilities in Glama's systems.
+
+## Gateway
+
+- [AI Model Gateway](https://glama.ai/gateway): Connect to and manage multiple AI models via a reliable OpenAI compatible API with detailed analytics.
+- [Gateway Api Keys](https://glama.ai/settings/api-keys): Create and manage API keys for the Glama Gateway.
+- [Glama Gateway Documentation](https://glama.ai/gateway/docs): Documentation for the Glama Gateway API features and usage.
