@@ -1,0 +1,31 @@
+%!PS-Adobe-3.0
+%%Title: Gravity Simulation Problem
+%%Creator: AI Simulation Generator
+
+% --- Problem Parameters (Data for AI to analyze) ---
+/gravity -9.81 def        % acceleration (m/s^2)
+/initial_velocity 20 def  % starting upward velocity (m/s)
+/time_steps 10 def        % total seconds to simulate
+
+% --- Drawing Setup ---
+/Times-Roman findfont 14 scalefont setfont
+72 750 moveto (Simulation: Projectile Motion under Gravity) show
+72 730 moveto (Formula: y = v0*t + 0.5*g*t^2) show
+
+% --- Simulation Logic ---
+/draw_point {
+    /t exch def
+    % Calculate Y position: y = (v0 * t) + (0.5 * g * t^2)
+    initial_velocity t mul 
+    0.5 gravity mul t t mul mul add
+    /y_pos exch def
+    
+    % Scale for visual: 1 meter = 10 points
+    72 t 40 mul add 400 y_pos 10 mul add moveto
+    (.) show
+} def
+
+% Execute simulation for 0 to 5 seconds
+0 0.5 5 { draw_point } for
+
+showpage
