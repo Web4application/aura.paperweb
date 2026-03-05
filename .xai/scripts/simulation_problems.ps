@@ -1,0 +1,30 @@
+%!AurasIm
+%%Title: Lorenz Attractor Simulation
+/sigma 10 def /rho 28 def /beta 2.666 def
+/dt 0.01 def /steps 5000 def
+
+/x 0.1 def /y 0.0 def /z 0.0 def  % Initial conditions
+
+newpath
+300 300 moveto % Center of the page
+
+1 1 steps {
+    % Lorenz Equations:
+    % dx = sigma * (y - x) * dt
+    % dy = (x * (rho - z) - y) * dt
+    % dz = (x * y - beta * z) * dt
+    
+    /dx y x sub sigma mul dt mul def
+    /dy rho z sub x mul y sub dt mul def
+    /dz x y mul beta z mul sub dt mul def
+    
+    /x x dx add def
+    /y y dy add def
+    /z z dz add def
+    
+    % Scale and draw (X-Z plane)
+    x 10 mul 300 add z 10 mul moveto
+    x 10 mul 300 add z 10 mul lineto
+    stroke
+} for
+showpage
