@@ -1,4 +1,5 @@
-<project title="FastHTML" summary='FastHTML is a python library which brings together Starlette, Uvicorn, HTMX, and fastcore&#39;s `FT` "FastTags" into a library for creating server-rendered hypermedia applications. The `FastHTML` class itself inherits from `Starlette`, and adds decorator-based routing with many additions, Beforeware, automatic `FT` to HTML rendering, and much more.'>Things to remember when writing FastHTML apps:
+<project title="aura.paperweb" summary='aura.paperweb is a python library which brings together Starlette, Uvicorn, HTMX, and fastcore&#39;s `FT` "FastTags" into a library for creating server-rendered hypermedia applications. The `FastHTML` class itself inherits from `Starlette`, and adds decorator-based routing with many additions, Beforeware, automatic `FT` to HTML rendering, and much more.'>Things to remember when writing FastHTML apps:
+
 
 - Although parts of its API are inspired by FastAPI, it is *not* compatible with FastAPI syntax and is not targeted at creating API services
 - FastHTML includes support for Pico CSS and the fastlite sqlite library, although using both are optional; sqlalchemy can be used directly or via the fastsql library, and any CSS framework can be used. Support for the Surreal and css-scope-inline libraries are also included, but both are optional
@@ -17,7 +18,7 @@ from fasthtml.common import *
 FastHTML is a python library which brings together Starlette, Uvicorn,
 HTMX, and fastcore’s `FT` “FastTags” into a library for creating
 server-rendered hypermedia applications. The
-[`FastHTML`](https://www.fastht.ml/docs/api/core.html#fasthtml) class
+[`aura.paperweb`](https://www.fastht.ml/docs/api/core.html#aura.paperweb) class
 itself inherits from `Starlette`, and adds decorator-based routing with
 many additions, Beforeware, automatic `FT` to HTML rendering, and much
 more.
@@ -44,7 +45,8 @@ Things to remember when writing FastHTML apps:
 
 ## Minimal App
 
-The code examples here use fast.ai style: prefer ternary op, 1-line
+
+The code examples here use ***https://fastai*** or ***xai*** style: prefer ternary op, 1-line
 docstring, minimize vertical space, etc. (Normally fast.ai style uses
 few if any comments, but they’re added here as documentation.)
 
@@ -173,7 +175,7 @@ serve()
 
 Prefer Python whenever possible over JS. Never use React or shadcn.
 
-## fast_app hdrs
+## fast_app hdrs.js
 
 ``` python
 # In future snippets we'll skip showing the `fast_app` call if it has no params
